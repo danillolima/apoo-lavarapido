@@ -6,13 +6,14 @@
 package Formularios;
 
 import Utilitario.ConectaBanco;
+import java.util.ArrayList;
 
 /**
  *
  * @author Uildson
  */
 public class JFrmFuncionario extends javax.swing.JFrame {
-
+                
     /**
      * Creates new form JFrmFuncionario
      */
@@ -25,6 +26,7 @@ public class JFrmFuncionario extends javax.swing.JFrame {
         conecta.conexao(); //
     }
 
+   
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -53,7 +55,6 @@ public class JFrmFuncionario extends javax.swing.JFrame {
         jMenu1.setText("Cadastrar");
 
         jMenuItem1.setText("Cliente");
-        jMenuItem1.setActionCommand("Cliente");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
@@ -123,11 +124,11 @@ public class JFrmFuncionario extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 784, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 279, Short.MAX_VALUE)
+            .addGap(0, 540, Short.MAX_VALUE)
         );
 
         setSize(new java.awt.Dimension(800, 600));

@@ -53,7 +53,7 @@ public class JFrmLogin extends javax.swing.JFrame {
 
         jLabel2.setText("CPF:");
 
-        jTextField1.setText("04949082388");
+        jTextField1.setText("92002194809");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -140,10 +140,12 @@ public class JFrmLogin extends javax.swing.JFrame {
             cpf = jTextField1.getText();
             pass = String.valueOf(this.jPasswordField1.getPassword());
         }
-        else
+        else{
              JOptionPane.showMessageDialog(rootPane, "Um ou mais campos estão vazios!");
-        
+             return;
+        }
         String Query = "select idFunc, cpf, senha, nome, funcao, cargo, salario from funcionario where cpf = '" + cpf + "' AND senha = '" + pass + "' limit 1;";
+      
         conecta.executaSQL(Query);
             try {
                 if(conecta.rs.first()){        
@@ -155,19 +157,18 @@ public class JFrmLogin extends javax.swing.JFrame {
             } catch (SQLException ex) {
                 Logger.getLogger(JFrmLogin.class.getName()).log(Level.SEVERE, null, ex);
             }
-           
-      
-        
+  
         if(!dados.isEmpty()){
                 JFrmFuncionario frm = new JFrmFuncionario();
                 frm.setVisible(true);
+                
         }
   
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed
-        // TODO add your handling code here:
         conecta.deconecta();
+        dispose();
     }//GEN-LAST:event_jToggleButton2ActionPerformed
 
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
