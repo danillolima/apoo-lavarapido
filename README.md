@@ -1,24 +1,24 @@
-#DescriÁ„o
-##Login: 
-Nome de usu·rio (funcion·rio) e senha devem coincidir com os termos cadastrados. 
-Tela inicial do sistema: 
-S„o apresentados os mÛdulos do sistema: Cadastros (clientes, funcion·rios, veÌculos, serviÁos e produtos) e pedidos. 
+# Descri√ß√£o  
+## Login: 
++ Nome de usu√°rio (funcion√°rio) e senha devem coincidir com os termos cadastrados. 
+### Tela inicial do sistema: 
+S√£o apresentados os m√≥dulos do sistema: Cadastros (clientes, funcion√°rios, ve√≠culos, servi√ßos e produtos) e pedidos. 
 
-No modulo de cadastro poder· escolher entre um dos tipos de cadastro a ser realizado - clientes, funcion·rios, veÌculos ou produtos ñ 
-No modulo de cadastro de clientes ser„o necess·rios campos para preenchimento de Nome, CPF, endereÁo, telefone e e-mail. 
-No modulo de cadastro de funcion·rios ser„o necess·rios campos para preenchimento de Nome, CPF, endereÁo, telefone e e-mail assim como no modulo de cadastro de clientes, acrescendo o sal·rio, data de contrataÁ„o e carga horaria di·ria. 
-No modulo cadastro de veÌculos, ser„o necess·rios campos para o preenchimento da marca, modelo do carro. 
-No modulo de cadastro de produtos, ser„o necess·rios campos para preenchimento do nome do produto, marca, fornecedor e quantidade adquirida. 
-No modulo de cadastro de serviÁos ser„o necess·rios campos para o preenchimento do nome do serviÁo, o preÁo do serviÁo e tempo mÈdio para realizaÁ„o (por serviÁo) e se o serviÁo exige produto para sua realizaÁ„o. Se o uso de produtos se fizer necess·rio, puxar pelo select do cadastro de produtos assim como sua quantidade a ser utilizada. 
++ No modulo de cadastro poder√° escolher entre um dos tipos de cadastro a ser realizado - clientes, funcion√°rios, ve√≠culos ou produtos ‚Äì 
++ No modulo de cadastro de clientes ser√£o necess√°rios campos para preenchimento de Nome, CPF, endere√ßo, telefone e e-mail. 
++ No modulo de cadastro de funcion√°rios ser√£o necess√°rios campos para preenchimento de Nome, CPF, endere√ßo, telefone e e-mail assim como no modulo de cadastro de clientes, acrescendo o sal√°rio, data de contrata√ß√£o e carga horaria di√°ria. 
++ No modulo cadastro de ve√≠culos, ser√£o necess√°rios campos para o preenchimento da marca, modelo do carro. 
++ No modulo de cadastro de produtos, ser√£o necess√°rios campos para preenchimento do nome do produto, marca, fornecedor e quantidade adquirida. 
++ No modulo de cadastro de servi√ßos ser√£o necess√°rios campos para o preenchimento do nome do servi√ßo, o pre√ßo do servi√ßo e tempo m√©dio para realiza√ß√£o (por servi√ßo) e se o servi√ßo exige produto para sua realiza√ß√£o. Se o uso de produtos se fizer necess√°rio, puxar pelo select do cadastro de produtos assim como sua quantidade a ser utilizada. 
 
-Na realizaÁ„o de um pedido, haver· o n˙mero do pedido que ser· incrementado a cada novo pedido salvo. O nome do cliente, o nome do funcion·rio vendedor do serviÁo, funcion·rio respons·vel pela execuÁ„o do serviÁo, o serviÁo a ser realizado e a sua quantidade (a quantidade ser· fator multiplicativo para o preÁo). O pedido pode conter apenas serviÁos, serviÁos e produtos ou apenas produtos. 
-Ao salvar o pedido ser· gerado seu n˙mero (n˙mero de pedido ++) e salvo no banco. 
-O pedido dever· ser aprovado para ser enviado para a realizaÁ„o (bot„o aprovar pedido). 
-Ao aprovar o pedido, os seus valores ser„o enviados ao modulo ìfaturamentoî como contas a receber em aberto. 
-Com o pedido salvo, ser· possÌvel imprimi-lo, cancel·-lo, alter·-lo e finaliz·-lo. 
-Quando o pedido È aprovado, o serviÁo pode ser encaminhado para a execuÁ„o. 
-Finalizando a execuÁ„o do serviÁo È necess·rio finalizar o pedido. Ao finalizar o pedido a tela do faturamento correspondente deve abrir em pop-up para baixa do valor (valor recebido). 
++ Na realiza√ß√£o de um pedido, haver√° o n√∫mero do pedido que ser√° incrementado a cada novo pedido salvo. O nome do cliente, o nome do funcion√°rio vendedor do servi√ßo, funcion√°rio respons√°vel pela execu√ß√£o do servi√ßo, o servi√ßo a ser realizado e a sua quantidade (a quantidade ser√° fator multiplicativo para o pre√ßo). O pedido pode conter apenas servi√ßos, servi√ßos e produtos ou apenas produtos. 
++ Ao salvar o pedido ser√° gerado seu n√∫mero (n√∫mero de pedido ++) e salvo no banco. 
++ O pedido dever√° ser aprovado para ser enviado para a realiza√ß√£o (bot√£o aprovar pedido). 
++ Ao aprovar o pedido, os seus valores ser√£o enviados ao modulo ‚Äúfaturamento‚Äù como contas a receber em aberto. 
++ Com o pedido salvo, ser√° poss√≠vel imprimi-lo, cancel√°-lo, alter√°-lo e finaliz√°-lo. 
++ Quando o pedido √© aprovado, o servi√ßo pode ser encaminhado para a execu√ß√£o. 
++ Finalizando a execu√ß√£o do servi√ßo √© necess√°rio finalizar o pedido. Ao finalizar o pedido a tela do faturamento correspondente deve abrir em pop-up para baixa do valor (valor recebido). 
 Faturamento **** Valores a receber e valores recebidos. 
-A tela inicial pode conter uma pesquisa para o pedido. Pelo n˙mero do pedido pode ser carregado seu faturamento correspondente. 
++ A tela inicial pode conter uma pesquisa para o pedido. Pelo n√∫mero do pedido pode ser carregado seu faturamento correspondente. 
 
  
